@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "typeRoots": ["./types"]
+  },
+  "extends": "./tsconfig.base",
+  "include": ["global.d.ts", "**/*.ts", "**/*.tsx"]
+}
